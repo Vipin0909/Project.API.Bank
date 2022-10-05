@@ -1,0 +1,88 @@
+Request method:	POST
+Request URI:	http://localhost:3000/credit/post/HDFCcustomerdata
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "9922534265",
+    "country": "INDIA",
+    "firstname": "Vipin",
+    "lastname": "M",
+    "accountno": "000999",
+    "branch": "Kothrud",
+    "city": "Pune"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 184
+ETag: W/"b8-q044zhrRTz9KGOeE4vY1Fi5loNA"
+Date: Mon, 03 Oct 2022 16:29:44 GMT
+Connection: keep-alive
+
+{
+    "_id": "633b0df81cfd80ebf4586cb3",
+    "mobile": "9922534265",
+    "country": "INDIA",
+    "firstname": "Vipin",
+    "lastname": "M",
+    "accountno": "000999",
+    "branch": "Kothrud",
+    "city": "Pune",
+    "courses": [
+        
+    ],
+    "__v": 0
+}
+Request method:	POST
+Request URI:	http://localhost:3000/credit/post/ICICIcustomerdata
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "9922534265",
+    "country": "INDIA",
+    "firstname": "R",
+    "lastname": "M",
+    "accountno": "111111",
+    "branch": "Kothrud",
+    "city": "Pune",
+    "bankname": "ICICI"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 199
+ETag: W/"c7-HF7fb9wVFmyRKkOAKZVr8uNl8PA"
+Date: Mon, 03 Oct 2022 16:29:46 GMT
+Connection: keep-alive
+
+{
+    "_id": "633b0dfa1cfd80ebf4586cb4",
+    "bankname": "ICICI",
+    "mobile": "9922534265",
+    "country": "INDIA",
+    "firstname": "R",
+    "lastname": "M",
+    "accountno": "111111",
+    "branch": "Kothrud",
+    "city": "Pune",
+    "courses": [
+        
+    ],
+    "__v": 0
+}
