@@ -19,6 +19,7 @@ public class Utilities {
 	public static RequestSpecification reqspec;
 	public static ResponseSpecification resspec;
 	public static String keyBaseUri;
+	public static FileInputStream fis;
 	
 	public static RequestSpecification requestspecification() throws FileNotFoundException {
 		if(reqspec==null) {
@@ -44,7 +45,8 @@ public class Utilities {
 		
 		try {
 			Properties prop = new Properties();
-			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\global.properties");
+			fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\global.properties");
+			System.out.println("Properties file path " + fis);
 			prop.load(fis);
 			keyBaseUri= prop.getProperty(key);
 		}catch(Exception e){
