@@ -44,7 +44,7 @@ public class Utilities {
 		
 		try {
 			Properties prop = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Eclipse-Workplace\\UB2022\\API.Project.2022.Sept\\src\\test\\java\\resources\\global.properties");
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\global.properties");
 			prop.load(fis);
 			keyBaseUri= prop.getProperty(key);
 		}catch(Exception e){
