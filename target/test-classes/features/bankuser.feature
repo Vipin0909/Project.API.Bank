@@ -42,6 +42,7 @@ Feature: Test Pojo Class
     Examples: 
       | mobile  | country | firstname  | lastname |accountno|branch|city|
       | 9922534265 | INDIA | Vipin| M| 000999|Kothrud|Pune|
+      | 9922534265 | INDIA | Reva| M| 12345|Kothrud|Pune|
       
   @ICICI
   Scenario Outline: ICICI Test Bank user details
