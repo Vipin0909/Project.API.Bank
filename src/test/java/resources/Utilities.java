@@ -20,6 +20,7 @@ public class Utilities {
 	public static ResponseSpecification resspec;
 	public static String keyBaseUri;
 	public static FileInputStream fis;
+	public static Properties prop;
 	
 	public static RequestSpecification requestspecification() throws FileNotFoundException {
 		if(reqspec==null) {

@@ -69,7 +69,7 @@ public class StepDefination16Sept extends Utilities
 				 System.out.println("POJO to JSON ICICI bank ... " +jsonoutcome_ICICI);
 	}
 	
-	// THIS is IMP method in this framework, INTERVIEW fucntion	
+	// THIS is IMP method in this framework, INTERVIEW function	
 	@Given("{string} in response body is {string}")
 	public static void in_response_body_is(String key, String expectedvalue) {
 		// key mobile & value is 9922534265

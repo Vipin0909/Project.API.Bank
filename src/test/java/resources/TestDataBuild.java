@@ -4,9 +4,7 @@ package resources;
 import pojo.HDFCAccountOpenUserData;
 import pojo.ICICIAccountOpenUserData;
 
-
 public class TestDataBuild {
-
 	
 	// created a new method NewAccountOpen as per pojo class. created object of pojo class and set the data
 	public HDFCAccountOpenUserData NewAccountOpen(String mobile,String country,String firstname,String lastname,String accountno,String branch,String city) {
@@ -26,7 +24,6 @@ public class TestDataBuild {
 
 	public ICICIAccountOpenUserData ICICINewAccountOpen(String bankname, String mobile, String country, String firstname,
 			String lastname, String accountno, String branch, String city) {
-		
 		
 		ICICIAccountOpenUserData iciciuser = new ICICIAccountOpenUserData();
 		
